@@ -1,0 +1,64 @@
+
+<ion-content id="background" class="animated  zoomIn delay-2s">
+  <div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+    <div class="flb">
+      <div class="Aligner-item Aligner-item--top"></div>
+      <div class="log"  ><img class="logo" src="../../assets/logos/aws-mobilehub.svg">
+        <h2 class="head">Daily News</h2></div>
+      <div class="Aligner-item Aligner-item--bottom"></div>
+    </div>
+  </div>
+
+<ion-header>
+  <ion-navbar color = "color" >
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!-- <ion-content class="background"> -->
+    <div class="div"></div>
+    <div class="div2"></div>
+    <div class="a">
+    <div class="div3"></div>
+    </div>
+  <h1>Welcome</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+    <ion-item>
+      <ion-label floating><h2>E-mail</h2></ion-label>
+      <ion-input type="text" [(ngModel)] = "users.email"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+       <ion-label floating><h2>Password</h2></ion-label>
+      <ion-input type="password" [(ngModel)] = "users.password" ></ion-input>
+    </ion-item>
+    <br>
+    <br>
+
+  <div class="butt">
+  <button ion-button outline color = "light" (click) = "LogIn(users)">Log In</button> 
+  
+<br>
+  <button ion-button outline color = "light" (click) = "Register(users)" >Register</button>
+</div>
+
+
+</ion-content>
